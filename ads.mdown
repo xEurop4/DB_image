@@ -12,13 +12,12 @@ __管理者権限__のあるWindowsユーザアカウントでPCにログイン�
 管理者権限がないユーザーだと、インストールすることができない。
 
  
-	
- 
 PostgreSQLのダウンロード
 ----------------
 PostgreSQLの[ダウンロード](http://www.enterprisedb.com/products-services-training/pgdownload#windows)  
-![画像](https://github.com/xEurop4/DB_image/blob/master/image/postgres/postgres_DL.PNG "画像")  
-def MyFunction(param1, param2, ...)
+![画像](images/postgres/postgres_DL.PNG "画像") 
+
+![画像](https://github.com/xEurop4/DB_image/blob/master/images/postgres/postgres_DL.PNG "画像")  
  
 +   `param1` :
     _パラメータ1_ の説明
@@ -28,15 +27,6 @@ def MyFunction(param1, param2, ...)
  
 関連情報
 --------
-### リンク、ネストしたリスト
-1. [リンク1](http://example.com/ "リンクのタイトル")
-    * ![画像1](http://iup.2ch-library.com/i/i1552137-1448600140.png "画像のタイトル")
-2. [リンク2][link]
-    - [![画像2][image]](https://github.com/)
- 
-  [link]: http://example.com/ "インデックス型のリンク"
-  [image]: http://github.com/github.png "インデックス型の画像"
- 
 ### 引用、ネストした引用
 > これは引用です。
 >
