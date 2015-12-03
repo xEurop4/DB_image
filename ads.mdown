@@ -1,0 +1,55 @@
+#PostgreSQL
+
+BSDライセンスに類似するライセンスにより配布されている  
+オープンソースのオブジェクト関係データベース管理システム (ORDBMS) である。
+
+インストール手順
+------
+### まず始めに 
+ 
+__管理者権限__のあるWindowsユーザアカウントでPCにログインしておく。  
+
+管理者権限がないユーザーだと、インストールすることができない。
+
+ 
+	
+ 
+PostgreSQLのダウンロード
+----------------
+PostgreSQLの[ダウンロード](http://www.enterprisedb.com/products-services-training/pgdownload#windows)  
+![画像](https://github.com/xEurop4/DB_image/blob/master/image/postgres/postgres_DL.PNG "画像")  
+def MyFunction(param1, param2, ...)
+ 
++   `param1` :
+    _パラメータ1_ の説明
+ 
++   `param2` :
+    _パラメータ2_ の説明
+ 
+関連情報
+--------
+### リンク、ネストしたリスト
+1. [リンク1](http://example.com/ "リンクのタイトル")
+    * ![画像1](http://iup.2ch-library.com/i/i1552137-1448600140.png "画像のタイトル")
+2. [リンク2][link]
+    - [![画像2][image]](https://github.com/)
+ 
+  [link]: http://example.com/ "インデックス型のリンク"
+  [image]: http://github.com/github.png "インデックス型の画像"
+ 
+### 引用、ネストした引用
+> これは引用です。
+>
+> > スペースを挟んで `>` を重ねると、引用の中で引用ができますが、
+> > GitHubの場合、1行前に空の引用が無いと、正しくマークアップされません。
+ 
+ライセンス
+----------
+Copyright &copy; 2011 xxxxxx
+Licensed under the [Apache License, Version 2.0][Apache]
+Distributed under the [MIT License][mit].
+Dual licensed under the [MIT license][MIT] and [GPL license][GPL].
+ 
+[Apache]: http://www.apache.org/licenses/LICENSE-2.0
+[MIT]: http://www.opensource.org/licenses/mit-license.php
+[GPL]: http://www.gnu.org/licenses/gpl.html
