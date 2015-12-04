@@ -1,16 +1,11 @@
 #Python 
 
-##Python とは？
-Pythonは複数のプログラミングパラダイムをサポートしており    
-オブジェクト指向、命令型、手続き型、関数型などのスタイルでプログラムを書くことができる。  
-Pythonは動的型付け言語であり、参照カウントベースの自動メモリ管理（ガベージコレクタ）を持つ。  
-さまざまな領域をカバーする大規模な標準ライブラリを提供している。  
+ここでは、PostgreSQLとの連携をPythonでプログラミングの方法を記述する
 
-※wikiから引用  
-
-ダウンロード
+はじめに
 ------
-[Python公式HP](https://www.python.org/downloads/)
+psycopg2というものをインストールしなければならない
+[psycopg2.DL](http://www.stickpeople.com/projects/python/win-psycopg/)
 
 ![画像](../images/python/python_DL.PNG "画像")  
 
