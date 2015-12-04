@@ -15,15 +15,13 @@ __管理者権限__のあるWindowsユーザアカウントでPCにログイン�
 PostgreSQLのダウンロード
 ----------------
 PostgreSQLの[ダウンロード](http://www.enterprisedb.com/products-services-training/pgdownload#windows)  
+
 ![画像](images/postgres/postgres_DL.PNG "画像") 
 
-![画像](https://github.com/xEurop4/DB_image/blob/master/images/postgres/postgres_DL.PNG "画像")  
- 
-+   `param1` :
-    _パラメータ1_ の説明
- 
-+   `param2` :
-    _パラメータ2_ の説明
+Version9.5.0もしくは9.4.5をダウンロード。  
+32bitのPCの場合は左側 , 64bitの場合は右側を選択。
+
+私たちは、9.4.5をダウンロードしました。
  
 関連情報
 --------
