@@ -1,5 +1,5 @@
 
 
-[psycopg2のダウンロード＆インストール](python_DB.mdown)
+[psycopg2のダウンロード＆インストール](md/python_DB.mdown)
 
 `:smile:` → :smile:
