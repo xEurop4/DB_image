@@ -1,5 +1,4 @@
-
-
 [psycopg2のダウンロード＆インストール](https://github.com/xEurop4/DB_image/blob/master/md/python_DB.mdown)
 
-`:smile:` → :smile:
+[Pythonのダウンロード＆インストール](https://github.com/xEurop4/DB_image/blob/master/md/python_%20install.mdown)
+
