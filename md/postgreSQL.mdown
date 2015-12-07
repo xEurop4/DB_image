@@ -16,14 +16,14 @@ PostgreSQLのダウンロード
 ----------------
 PostgreSQLの[ダウンロード](http://www.enterprisedb.com/products-services-training/pgdownload#windows)  
 
-![画像](images/postgres/postgres_DL.PNG "画像") 
+![画像](../images/postgres/postgres_DL.PNG "画像") 
 
 Version9.5.0もしくは9.4.5をダウンロード。  
 32bitのPCの場合は左側 , 64bitの場合は右側を選択。
 
 私たちは、9.4.5をダウンロードしました。
  
-関連情報
+インストール
 --------
 ### 引用、ネストした引用
 > これは引用です。

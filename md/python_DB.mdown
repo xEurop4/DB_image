@@ -1,19 +1,22 @@
-#Python 
+#psycopg2
 
-ここでは、PostgreSQLとの連携をPythonでプログラミングの方法を記述する
+PostgreSQLをPythonで操作するために必要な  
+
+psycopg2をインストールする手順の説明です。
 
 はじめに
 ------
-psycopg2というものをインストールしなければならない
-[psycopg2.DL](http://www.stickpeople.com/projects/python/win-psycopg/)
+psycopg2というものをインストールしないといけません  
+[psycopg2.DL](http://www.stickpeople.com/projects/python/win-psycopg/)  
 
-![画像](../images/python/python_DL.PNG "画像")  
+![画像](../images/psycopg2/python_DB01.PNG "画像")  
 
-私たちは、Python2.7.10をダウンロードしました。
+ここで注意してほしいことは、**インストールしたPythonのVer**により  
+インストールする**psycopg2のVer**が変わること。
 
-ここで注意してほしいことは、  
-**Python3**と**Python2**では**コードの書き方が一部変わっている**ことです。  
-私たちのプログラムは、２で書かれているので、３とは書き方が違うので注意してください。
+私たちはPython2.7をインストールしているため、  
+上から2行目の psycopg2-2.6.1.win32-py2.7-pg9.4.4-release.exe をダウンロードしました。
+
 
 インストール
 ----------------
