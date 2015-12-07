@@ -23,8 +23,47 @@ Version9.5.0もしくは9.4.5をダウンロード。
 
 私たちは、9.4.5をダウンロードしました。
  
+
 インストール
 --------
+インストールする際に、postgresというuserがSuperuserで作成されます。
+
+![画像](../images/postgres/postgreSQL_Install01.PNG "画像")  
+----------------
+Next > でOKです。  
+
+
+![画像](../images/postgres/postgreSQL_Install02.PNG "画像") 
+---------------- 
+ここはデフォルトでもOKですが、インストールするディレクトリを変更したい人は、  
+任意のディレクトリを選択してください。  
+その後は、Next > でOKです。
+  
+
+![画像](../images/postgres/postgreSQL_Install03.PNG "画像")  
+----------------
+ここも上と同じくデフォルトでOKですが、データディレクトリを変更したい人は、  
+任意のディレクトリを選択してください。
+(選択する場所を間違えた場合、おかしくなる場合があります。)  
+その後は、Next > でOKです。  
+
+
+![画像](../images/postgres/postgreSQL_Install04.PNG "画像")  
+----------------
+Passwordは任意のパスワードにしてください。  
+ここで入力されたパスワードは、
+その後、Next > でOKです。
+
+
+![画像](../images/postgres/postgreSQL_Install05.PNG "画像")  
+----------------
+![画像](../images/postgres/postgreSQL_Install06.PNG "画像")  
+----------------
+![画像](../images/postgres/postgreSQL_Install07.PNG "画像")  
+----------------
+![画像](../images/postgres/postgreSQL_Install08.PNG "画像")  
+----------------
+
 ### 引用、ネストした引用
 > これは引用です。
 >
