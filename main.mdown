@@ -1,5 +1,5 @@
 
 
-[psycopg2のダウンロード＆インストール](md/python_DB.mdown)
+[psycopg2のダウンロード＆インストール](https://github.com/xEurop4/DB_image/blob/master/md/python_DB.mdown)
 
 `:smile:` → :smile:
