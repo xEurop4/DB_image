@@ -51,32 +51,91 @@ Next > でOKです。
 ![画像](../images/postgres/postgreSQL_Install04.PNG "画像")  
 ----------------
 Passwordは任意のパスワードにしてください。  
-ここで入力されたパスワードは、
+ここで入力されたパスワードは、データベースに接続する際に必要なので、適当に決めてはいけません(戒め)  
+
 その後、Next > でOKです。
 
 
 ![画像](../images/postgres/postgreSQL_Install05.PNG "画像")  
 ----------------
+PortはこのままでOKです。  
+変えたい方は変えてもいいですが、基本はデフォルトのままです。  
+
+その後、Next > でOKです。  
+
 ![画像](../images/postgres/postgreSQL_Install06.PNG "画像")  
 ----------------
+ここは自分たちのみで使うのならJapaneseでOKですが、  
+基本はCにしていたほうが無難だと思います（詳しくは調べていないのであいまいです。）  
+
+その後、Next > でOKです。  
+
 ![画像](../images/postgres/postgreSQL_Install07.PNG "画像")  
 ----------------
+Next > をクリックすると、Installが開始されます。  
+
+
 ![画像](../images/postgres/postgreSQL_Install08.PNG "画像")  
 ----------------
+画像の中心にある、チェックの所ですが  
+Stack Builderを使ってDriverをInstallするかしないかのという事なので  
+最初はスルーしてもいいかもしれません。（適当）
 
-### 引用、ネストした引用
-> これは引用です。
->
-> > スペースを挟んで `>` を重ねると、引用の中で引用ができますが、
-> > GitHubの場合、1行前に空の引用が無いと、正しくマークアップされません。
- 
-ライセンス
-----------
-Copyright &copy; 2011 xxxxxx
-Licensed under the [Apache License, Version 2.0][Apache]
-Distributed under the [MIT License][mit].
-Dual licensed under the [MIT license][MIT] and [GPL license][GPL].
- 
-[Apache]: http://www.apache.org/licenses/LICENSE-2.0
-[MIT]: http://www.opensource.org/licenses/mit-license.php
-[GPL]: http://www.gnu.org/licenses/gpl.html
+Stack Buliderというのはいつでも起動することが出来ますので、  
+必要になったときにInstallすればいいと思います。
+
+Finishをクリックすれば、Installは完了です。
+
+
+
+環境変数
+--------
+ インストールしただけでは、Pythonは使えないので、Pathを通します。
+
+![画像](../images/python/python_path1.png "画像") 
+----------------
+検索欄にシステム環境変数と入力します。  
+そして検索結果に出たシステム環境変数をクリックorダブルクリック  
+すると管理者ではないユーザーの場合は、管理者権限のユーザー名とPWを入力してください  
+といわれます。
+
+その場合指示に従ってください。
+
+![画像](../images/python/python_path02.PNG "画像") 
+----------------
+環境変数のところをクリック 
+
+![画像](../images/python/python_path03.PNG "画像")  
+----------------
+システム環境変数の一覧が出ます。
+
+![画像](../images/python/python_path04.PNG "画像") 
+----------------
+次にPathをクリック。
+
+![画像](../images/python/python_path05.PNG "画像") 
+----------------
+するとこの画面が出るので、変数値の所をメモ帳かテキストエディタなどに  
+コピー＆ペーストしてください。
+
+**※ここのPathを消してしまうと、後々めんどくさいことになるので消さないように**
+
+変数値の一番最後のところに
+ > c:\○○\bin;  
+
+と入力してください。○○はPostgreSQLをインストールしたディレクトリに合わせて変更して下さい。  
+
+私たちの場合は、
+ > c:\Program Files\PostgreSQL\9.4\bin;  
+
+ と入力しました。
+
+その後は、きちんとPathが通っているかの確認です。
+コマンドプロンプトを起動してください。
+ディレクトリはどこでもよいので、
+ > psql
+
+ と入力し、パスワードを要求されたら、インストール及びPathの設定は完了です。  
+
+
+**お疲れ様です。**  

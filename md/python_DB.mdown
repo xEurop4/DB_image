@@ -11,6 +11,7 @@ psycopg2というものをインストールしないといけません
 
 ![画像](../images/psycopg2/python_DB01.PNG "画像")  
 
+
 ここで注意してほしいことは、**インストールしたPythonのVer**により  
 インストールする**psycopg2のVer**が変わること。
 
